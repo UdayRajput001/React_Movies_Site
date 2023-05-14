@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+
+.moviedetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.moviedetails h1 {
+  font-size: 63px;
+  margin-bottom: 20px;
+  font-family: 'VarelaRound','Sans-serif';
+  color: #0077c2;
+}
+.mov
+{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+}
+.m
+{
+  margin-top: 250px;
+}
+
+
+.moviedetails h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: 'VarelaRound','Sans-serif';
+}
+
+.mov img {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+  margin-right: 1%;
+  border-style: double;
+}
+
+
+
+.button {
+  background-color: #0077c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 50%;
+}
+
+.button:hover {
+  background-color: #0060a8;
+}

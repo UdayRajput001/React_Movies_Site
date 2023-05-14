@@ -1,0 +1,66 @@
+.MovieForms {
+  background: radial-gradient(circle, rgba(24, 49, 59, 0.9) 34%, rgba(121, 9, 49, 0.75) 99%, rgba(0, 212, 255, 1) 100%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Varela Round', sans-serif;
+  
+}
+.Movieforms
+{
+  margin-left: 50%;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.MovieForms label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.MovieForms input[type="text"],
+.MovieForms select {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  
+  margin-left: 20px;
+}
+
+.MovieForms button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.MovieForms button:hover {
+  background-color: #333;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+#name
+{
+  margin-left: 94px;
+}
+#numberOfTickets
+{
+  margin-left: 10px;
+}
